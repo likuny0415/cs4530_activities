@@ -1,0 +1,7 @@
+In a text file, list several ways in which Whitley’s code violates the 5 Principles.
+- The time between color changes of the traffic light is hard coded to be the same for all traffic lights, which is not true
+- The time between color changes of the traffic light is hard coded to be the same for all color transitions, which may not be true
+- The variable name for storing the current traffic light color is “color” which is confusing, the name can be improved such as “currentTrafficLightColor”
+- The function name for getting the current traffic light color is called “getColor()” which is confusing, can be named like “getCurrentTrafficLightColor()”
+- The function setTime should be better named ‘setTimeLeft(time: number)’, also the variable t should be named time which is more readable.
+- The function “colorAtNextSecond()” should be put inside of the class “TrafficLight” since this function is only used within “TrafficLight”
